@@ -1,0 +1,113 @@
+.price_list {
+    display: flex;
+    flex-direction: column;
+}
+.price_title {
+    margin-left: 10vw;
+}
+.price_section {
+    display: flex;
+    flex-direction: row;
+}
+.arrowleft {
+    align-self: center;
+    margin-top: -5vw;
+    padding-right: 5vw;
+}
+.arrowleft img {
+    max-width: 5vw;
+}
+.tables {
+    max-width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'img1 img2'
+    'img3 img4';
+    gap: 2vw;
+}
+.img1 {
+    grid-area: 'img1';
+    max-height: 30vw;
+}
+.img2 {
+    grid-area: 'img2';
+    max-height: 30vw;
+}
+.img3 {
+    grid-area: 'img3';
+    max-width: 37vw;
+}
+.img4 {
+    grid-area: 'img4';
+    max-width: 29vw;
+}
+.arrowright {
+    align-self: center;
+    margin-top: -5vw;
+}
+.arrowright img {
+    max-width: 5vw;
+    transform: rotate(180deg);
+}
+.questions_form {
+    display: grid;
+    grid-template-columns: 40vw 35vw;
+    grid-template-rows: 30vh 90vh 35vh;
+    column-gap: 8vw;
+}
+.form_title {
+    grid-area: 1/1/2/3;
+    text-align: right;
+    margin-top: -10vw;
+}
+.inputs {
+    grid-area: 2/1/3/2;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.form_comment {
+    grid-area: 2/2/3/3;
+}
+.form_img {
+    grid-area: 3/2/4/3;
+    max-width: 45vw;
+    margin-top: -50vh;
+    margin-left: -18vw;
+}
+.form_img img {
+    max-width: 75vw;
+    margin-right: 0;
+}
+input {
+    border-radius: 42px;
+    border: 4px solid #728BAD;
+    background: none;
+    height: 77px;
+    box-sizing: border-box;
+    color: rgba(217, 217, 217, 0.51);
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 5vh;
+}
+textarea {
+    border-radius: 42px;
+    border: 4px solid #728BAD;
+    background: none;
+    box-sizing: border-box;
+    color: rgba(217, 217, 217, 0.51);
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 5vh;
+    padding-top: 3vh;
+}
+main {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
